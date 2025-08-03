@@ -1,0 +1,22 @@
+{
+  "name": "design-tokens-example",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikkyu-3/design-tokens-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikkyu-3/design-tokens-example/issues"
+  },
+  "homepage": "https://github.com/ikkyu-3/design-tokens-example#readme",
+  "description": "",
+  "devDependencies": {
+    "style-dictionary": "^5.0.1"
+  }
+}
