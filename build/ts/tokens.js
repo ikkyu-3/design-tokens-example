@@ -4,24 +4,24 @@
 
 export const PrimitiveColorWhite = {
   colorSpace: "srgb",
-  components: [255, 255, 255],
+  components: [1, 1, 1],
   alpha: 1,
   hex: "#ffffff",
 };
 export const PrimitiveColorBlue500 = {
   colorSpace: "srgb",
-  components: [96, 2, 238],
+  components: [0.376, 0.008, 0.933],
   alpha: 1,
   hex: "#6002ee",
 };
 export const PrimitiveColorGray800 = {
   colorSpace: "srgb",
-  components: [71, 71, 71],
+  components: [0.278, 0.278, 0.278],
   hex: "#474747",
 };
 export const PrimitiveColorGray900 = {
   colorSpace: "srgb",
-  components: [34, 34, 34],
+  components: [0.133, 0.133, 0.133],
   hex: "#222222",
 };
 export const PrimitiveSpacingXs = { value: 4, unit: "px" };
@@ -37,7 +37,11 @@ export const PrimitiveTypographyLineHeightMd = { value: 24, unit: "px" };
 export const PrimitiveTypographyFontWeightRegular = 400;
 export const PrimitiveTypographyFontWeightSemiBold = 600;
 export const PrimitiveShadowElevation1 = {
-  color: { colorSpace: "srgb", components: [71, 71, 71], hex: "#474747" },
+  color: {
+    colorSpace: "srgb",
+    components: [0.278, 0.278, 0.278],
+    hex: "#474747",
+  },
   offsetX: { value: 0, unit: "px" },
   offsetY: { value: 2, unit: "px" },
   blur: { value: 4, unit: "px" },
@@ -45,13 +49,13 @@ export const PrimitiveShadowElevation1 = {
 };
 export const SemanticColorBrandPrimary = {
   colorSpace: "srgb",
-  components: [96, 2, 238],
+  components: [0.376, 0.008, 0.933],
   alpha: 1,
   hex: "#6002ee",
 }; // ブランドを象徴する主要なカラーです。
 export const SemanticColorTextPrimary = {
   colorSpace: "srgb",
-  components: [34, 34, 34],
+  components: [0.133, 0.133, 0.133],
   hex: "#222222",
 }; // 主に本文などの基本テキストに使用する色です。
 export const SemanticTypographyBody = {
@@ -67,7 +71,11 @@ export const SemanticTypographyButton = {
   fontWeight: 600,
 };
 export const SemanticShadowButton = {
-  color: { colorSpace: "srgb", components: [71, 71, 71], hex: "#474747" },
+  color: {
+    colorSpace: "srgb",
+    components: [0.278, 0.278, 0.278],
+    hex: "#474747",
+  },
   offsetX: { value: 0, unit: "px" },
   offsetY: { value: 2, unit: "px" },
   blur: { value: 4, unit: "px" },
@@ -80,7 +88,11 @@ export const ComponentButtonPrimaryTypography = {
   fontWeight: 600,
 };
 export const ComponentButtonPrimaryShadow = {
-  color: { colorSpace: "srgb", components: [71, 71, 71], hex: "#474747" },
+  color: {
+    colorSpace: "srgb",
+    components: [0.278, 0.278, 0.278],
+    hex: "#474747",
+  },
   offsetX: { value: 0, unit: "px" },
   offsetY: { value: 2, unit: "px" },
   blur: { value: 4, unit: "px" },
@@ -88,13 +100,13 @@ export const ComponentButtonPrimaryShadow = {
 };
 export const ComponentButtonPrimaryBackgroundColor = {
   colorSpace: "srgb",
-  components: [96, 2, 238],
+  components: [0.376, 0.008, 0.933],
   alpha: 1,
   hex: "#6002ee",
 };
 export const ComponentButtonPrimaryTextColor = {
   colorSpace: "srgb",
-  components: [255, 255, 255],
+  components: [1, 1, 1],
   alpha: 1,
   hex: "#ffffff",
 };
